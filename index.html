@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piano</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body class="fondo">
+    <select class="form-select form-select-lg mb-3 select" aria-label="Large select example">
+        <option selected>Elige tu escala </option>
+        <option value="1">Escala Mayor</option>
+        <option value="2">Escala Menor</option>
+    </select>
+    <div class="conteiner">
+        <button data-note = "C4" class="tecla nota">D0</button>
+        <button data-note = "C#4" id="DO"class="teclita nota">DO#</button>
+        <button data-note = "D4" class="tecla nota">RE</button>
+        <button data-note = "D#4" id="RE" class="teclita nota">RE#</button>
+        <button data-note = "E4" class="tecla nota" id="3">MI</button>
+        <button data-note = "F4" id="fa"class="tecla nota">FA</button>
+        <button data-note = "F#4" id="FA" class="teclita nota">FA#</button>
+        <button data-note = "G4" id="sol"class="tecla nota">SOL</button>
+        <button data-note = "G#4" id="SOL" class="teclita nota">SOL#</button>
+        <button data-note = "A4" id="la"class="tecla nota">LA</button>
+        <button data-note = "A#4" id="LA" class="teclita nota">LA#</button>
+        <button data-note = "B4" id="si" class="tecla nota">SI</button>
+        <button data-note = "C5" id="do2" class="tecla nota">DO</button>
+        <button data-note = "C#5" id="DO2" class="teclita nota">DO#</button>
+    </div>
+    <div class="boton">
+        <button class="boton-inicio" >inicio</button>
+    </div>
+    <script src="scrip.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tone@14.8.26/build/Tone.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.fondo{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.selec{
+    margin-top: 1%;
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2%;
+}
+
+.tecla{
+    width: 10%;
+    height: 500px;
+    background-color: white;
+    border: 4px black solid;
+    }
+
+.teclita{
+    width: 5%;
+    height: 200px;
+    background-color: #000;
+    color: white;
+}
+
+#DO{
+    position: absolute;
+    z-index: 1;
+    left: 18%;
+}
+
+#RE{
+    position: absolute;
+    z-index: 1;
+    left: 27%;
+}
+
+#FA{
+    position: absolute;
+    z-index: 1;
+    left: 48%;
+}
+
+#SOL{
+    position: absolute;
+    z-index: 1;
+    left: 58%;
+}
+
+#LA{
+    position: absolute;
+    z-index: 1;
+    left: 68%;
+}
+
+#DO2{
+    position: absolute;
+    z-index: 1;
+    left: 85%;
+}
+
+.boton-inicio{
+    width: 11% ;
+    height: 50px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.tecla:hover {
+    background-color: red ; 
+    color: black; 
+}
+
+.boton-inicio:hover{
+    background-color: red;
+    color: #000;
+}
+
+.teclita:hover {
+    background-color: white ; 
+    color: black; 
+}
